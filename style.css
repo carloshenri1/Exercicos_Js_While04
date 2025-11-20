@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #adabb5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+
+}
+
+
+.centro {
+    width: 500px;
+}
+
+.centro h1 {
+    color: #f61414;
+    
+}
+
+
+main {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0e6a94;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 30px;
+
+
+}
